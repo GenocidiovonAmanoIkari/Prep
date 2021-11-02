@@ -1,0 +1,52 @@
+Variables: imaginemos que tenemos un pedazo de papel. De un lado tenemos escrito "edad", y del otro un valor (imaginemos 31).
+En otro podríamos tener "nombre" y por contrapartida la palabra "Jazmín". Es decir, usamos el papel para guardar una referencia
+junto con un valor. A esto podríamos llamarles variables: información con un nombre/referencia específico. Sin embargo solo
+podemos guardar un tipo de dato (no podríamos tener una variable llamada "nombreYEdad" que tuviera los valores "Jazmín" y "31",
+por ejemplo.
+
+Strings: un tipo de dato que hace referencia a una cadena (string) de caracteres. Caracteres de cualquier tipo (pueden ser
+letras -mayúsculas y minúsculas-, números, símbolos, espacios, caracteres especiales y cualquier combinación de los mismos). Para
+saber que un tipo de dato es un string lo encerramos entre comillas (simples o dobles).
+
+Funciones: las funciones son pequeños procesos que definimos. Por ejemplo: podríamos tener 2 variables, X e Y, y ambas ser dos
+enteros. Podríamos entonces proceder a operar aritméticamente sobre los dos, sumando, restando, multiplicando, etc. Ahora
+imaginemos que tenemos 1000 conjuntos de X e Y. Hacer esta grupo de operaciones para 1000 conjuntos es, cuanto mínimo, bastante
+engorroso. Pero con una función podríamos definir las cuatro operaciones una sola vez, y luego simplemente pasarle los valores
+a la misma para que los ejecute. En definitiva, una función es un pedazo de código que nos automatiza una tarea.
+
+Argumentos de funciones: los argumentos son una promesa, digamos, de que una función va a recibir algo. Digamos que tenemos una
+función llamada potenciarNumeros(x,y). No sabemos exactamente qué números vamos a recibir (ni como base ni como exponente). Pero
+usando x e y en los paréntesis le estamos prometiendo a la función que le van a llegar siempre dos cosas (y la función de hecho
+va a esperar 2 datos separados).
+
+return: con esto hacemos referencia a una palabra clave del lenguaje. Cuando usamos return dentro de una función retornamos
+un valor (que puede ser de cualquier tipo de dato). Podemos declarar más de 1 return por función, sí, pero en el momento
+que la función se topa con uno de ellos automáticamente se sale de la función.
+
+Declaraciones "if": con esto nos referimos a un eventual que pueda darse. Por ejemplo: digamos que vamos al supermercado.
+SI (if) hay un payaso en la puerta, no entramos. Caso contrario, entramos. Como podemos ver se plantea una situación de dos
+posibles caminos. En programación podemos tener este mismo comportamiento: darle al programa diferentes situaciones a evaluar
+para saber cómo proceder. Luego de usar if, hay dos caminos: o bien un "else" (O) si es una situación binaria o si es la última
+posibilidad, o bien un else if (si hay más de 2 caminos).
+
+Valores booleanos: con esto nos referimos a un tipo de dato que toma como posible valor dos posibilidades: verdadero y falso.
+Supongamos que revisamos nuestros bolsillos para ver si hay un lápiz. Si encontramos un lápiz, el valor de esta búsqueda será
+verdadero (true). Si no lo encontramos, será falso (false). Es importante entender que true y false no se refieren a que algo
+es "verdad o mentira": más bien a que en efecto existe/se cumple la condición.
+
+for: el for es un bucle de programación que se usa para iterar (recorrer) un algo. Por ejemplo: podríamos iterar un arreglo de
+números y contar cuántos son par y cuántos son impar. Por supuesto que podríamos hacerlo de forma manual si fueran 3, 4 elementos.
+Pero si recibimos un arreglo de 1000 números, lo más probable es que nos aburramos al 5to número. El ciclo for remedia esto.
+El mismo toma en cuenta 3 requisitos: una variable que se usa como contador y un valor inicial para la misma; una variable 
+que se usa como corte del ciclo for; algo que accione sobre el contador. Es importante notar que es posible que el ciclo for
+nunca se ejecute si la condición de corte es alcanzada al momento de entrar en el mismo. 
+
+&&, ||, !: con esto nos referimos a tres tipos de operadores lógicos.
+&&: también llamado operador AND. El mismo nos devuelve true si y solo si todos los elementos comparados son iguales. Por ejemplo,
+3 && 3 nos devolvería true, puesto que ambos son equivalentes. Sin embargo, 3 && 3 && 2 nos devolvería false pues uno de ellos
+no es equivalente.
+||: también llamado operador OR. El mismo nos devuelve true en tanto y en cuanto uno de los elementos sea true. Por ejemplo, 
+digamos que queremos comparar un conjunto de números enteros y devolver true si alguno de ellos es par. 2 || 3 || 7 || 9 nos
+retornaría true puesto que si bien 3 de los 4 números son impares, hay al menos 1 que cumple la condición (2).
+!: también llamado operador NOT. Básicamente, invierte el valor de veracidad. Por ejemplo, 3 == 3 se considera como true puesto
+que ambos son iguales. Usando 3 != 3 obtenemos false, puesto que lo que estamos pidiendo acá es que NO SEA IGUAL (invertimos el valor).
